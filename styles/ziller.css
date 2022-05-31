@@ -1,0 +1,134 @@
+/*   
+  Assignment 2 
+  Name: Mariam Jael Caceres Lopez 
+  Student ID: 261059724 
+  Class: CCCS 310 - 784 
+   */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 960px;
+  background-image: url("../images/blacktexture.jpg");
+}
+
+/*Top bar with links*/
+#top {
+  background-color: gray;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.7rem;
+}
+
+#top a:link {
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+body {
+  font-size: 1em;
+  font-family: georgia;
+  margin-top: 1em;
+}
+
+#mainContainer {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #f3f6e9;
+}
+
+/*Left Container*/
+#left {
+  width: 298px;
+  padding: 10px;
+  border-right: solid 3px teal;
+  float: left;
+}
+
+/*Middle Container*/
+#middle {
+  width: 298px;
+  padding: 10px;
+  border-right: solid 3px teal;
+  float: left;
+}
+
+/*Right Container*/
+#right {
+  width: 298px;
+  padding: 10px;
+  float: left;
+}
+
+/*Headers*/
+h1 {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-image: url("../images/blacktexture.jpg");
+}
+
+h2 {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: navy;
+  text-align: center;
+  font-size: 21px;
+}
+
+/*Paragraphs*/
+p {
+  text-indent: 1em;
+  font-size: 15px;
+}
+/*Links*/
+a {
+  font-size: 17px;
+  margin-right: 2px;
+}
+
+#topLinks,
+#footerLinks {
+  text-indent: 0;
+}
+
+/*Footer Section*/
+footer {
+  font-family: "Times New Roman", Times, serif;
+  clear: both;
+  margin-top: 0em;
+  text-align: center;
+  color: white;
+  background-color: gray;
+  padding: 1px 9px 11px 9px;
+}
+
+#footerText {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 1.2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer a:link {
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+footer a:hover {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  color: black;
+  background-color: white;
+}
